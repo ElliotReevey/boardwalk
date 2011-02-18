@@ -5,7 +5,7 @@ Links:
 	<li><a href="/boardwalk/personal/referafriend/">Refer a Friend</a></li>
 	<li><a href="/boardwalk/world/search/">Search</a></li>
 	<li><a href="/boardwalk/personal/myaccount/">My Account</a></li>
-	<li><a href="#">Profile Page</a></li>
+	<li><a href="/boardwalk/profile/player/8/">Profile Page</a></li>
 	<li><a href="#">Helpdesk</a></li>
 	<li><a href="#">Control Panel</a></li>
 	<li><a href="#">Forum</a></li>

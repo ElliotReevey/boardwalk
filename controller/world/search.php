@@ -62,7 +62,7 @@
 			if(isset($_POST['crewSearch'])) {
 				$search = $_POST['searchCrew'];
 			
-				//if($this->validation->userName($search)) {
+				if($this->validation->userName($search)) {
 					$check = $this->db->query("SELECT * FROM crews WHERE crewname = '$search'");
 					if($check){
 					
@@ -77,9 +77,9 @@
 					} else {
 						$data['fail'] = "The crewname you entered does not exist.";
 					}			
-				//} else {
-				//	$data['fail'] = "The crewname you entered was invalid.";
-				//}
+				} else {
+					$data['fail'] = "The crewname you entered was invalid.";
+				}
 			}
 		
 		}

@@ -37,7 +37,7 @@ class SearchResults extends Model{
 		return $out;
 	}
 
-	function search_perform($terms,$field,$table,$status,$activity){
+	function search_perform($terms,$field,$table,$status=false,$activity=false){
 		$terms = $this->search_split_terms($terms);
 		$terms_db = $this->search_db_escape_terms($terms);
 		$terms_rx = $this->search_rx_escape_terms($terms);
@@ -93,9 +93,7 @@ class SearchResults extends Model{
 		
 		$rows = array();
 		$result = $this->db->query("SELECT * FROM $table WHERE $parts")->rows();
-		
-		echo "SELECT * FROM $table WHERE $parts";
-				
+						
 		foreach($result as $key => $row) {
 		
 			$row['score'] = 0;
