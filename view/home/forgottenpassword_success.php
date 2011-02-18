@@ -1,0 +1,1 @@
+<h1><?=gettext("Well done, we have reset your password, check your email.")?></h1>

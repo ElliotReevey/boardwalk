@@ -1,0 +1,1 @@
+<h1><?=gettext("Well done, you have signed up, now check your email!")?></h1>
