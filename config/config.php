@@ -24,6 +24,8 @@
 	// =========== 
 	
 	$config['base_url'] = "http://localhost:8888/boardwalk/";
+	$config['relative_path'] = "/Applications/MAMP/htdocs/boardwalk/";
+	$config['local_url'] = "http://localhost:8888/";
 	
 	// =========== 
 	// ! Assets folder location   
@@ -43,7 +45,7 @@
 	// ! Auto load libraries
 	// =========== 
 	
-	$config['auto_load'] = array("db");
+	$config['auto_load'] = array("db","language");
 	
 	// =========== 
 	// ! Auto load models   
@@ -189,4 +191,14 @@
 	# Specify the folder containing your default template.
 	
 	$config['default_template'] = "default";
+
+	// =========== 
+	// ! Translation settings 
+	// =========== 
+	
+	$config['default_language'] = 'en_EN';
+	$config['supported_languages'] = array('en_EN','de_DE');
+	$config['language_directory'] = $config['relative_path'].'application/locale/';
+	
+	
 	

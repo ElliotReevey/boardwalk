@@ -5,6 +5,7 @@
 		function __construct(){
 			
 			parent::Controller();
+			$this->load->library('session');
 			$this->load->library('validation');
 			$this->load->helper('form');
 			$this->load->model('gamecore');
@@ -19,15 +20,17 @@
 		}
 		
 		function auth($string=false){
-			
-			$check = $this->db->query("SELECT * FROM reset_password WHERE code = '$string'")->row();
-			if($check) {
-				$data['token'] = $string;
-				$this->load->view("home/resetpassword",$data);
+			if(preg_match('/^[A-Za-z0-9]{45}+$/',$string)){
+				$check = $this->db->query("SELECT * FROM reset_password WHERE code = '$string'")->row();
+				if($check) {
+					$data['token'] = $string;
+					$this->load->view("home/resetpassword",$data);
+				} else {
+					$this->load->view("404");
+				}
 			} else {
-				$this->load->view("404");
+			$this->load->view("404");
 			}
-			
 		}
 
 		function submit(){

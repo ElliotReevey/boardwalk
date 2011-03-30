@@ -5,6 +5,7 @@
 		function __construct(){
 			
 			parent::Controller();
+			$this->load->library('session');
 			$this->load->model('gamecore');
 			$this->gamecore->loginchecker();
 

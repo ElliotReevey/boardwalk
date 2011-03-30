@@ -1,6 +1,6 @@
 <?php
 
-	class Main extends Controller{
+	class Unsetcookie extends Controller{
 	
 		function __construct(){
 			
@@ -12,8 +12,12 @@
 		}
 		
 		function index(){
-				
-			$this->load->view("main");
+			
+			unset($_COOKIE['locale']);
+			setcookie("locale", "", time()-(86400*365));
+			echo "in here";
+			
+			print_r($_COOKIE['locale']);
 		 
 		}
 			

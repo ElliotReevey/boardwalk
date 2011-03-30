@@ -5,6 +5,7 @@
 		function __construct(){
 			
 			parent::Controller();
+			$this->load->library('session');
 			$this->load->library('validation');
 			$this->load->helper('form');
 			$this->load->model('gamecore');
@@ -52,7 +53,7 @@
 		}
 		
 		function page_info(){
-			$data = $this->db->query("SELECT id, username FROM users WHERE id = '{$_SESSION['logincheck']}'")->row();
+			$data = $this->db->query("SELECT id, username FROM characters WHERE id = '{$_SESSION['logincheck']}'")->row();
 			$data['gamename'] = $this->core->get_config_item('name','application');
 			return $data;		
 		}

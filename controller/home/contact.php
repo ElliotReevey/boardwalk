@@ -5,6 +5,7 @@
 		function __construct(){
 			
 			parent::Controller();
+			$this->load->library('session');
 			$this->load->library('validation');
 			$this->load->helper('form');
 			$this->load->model('gamecore');

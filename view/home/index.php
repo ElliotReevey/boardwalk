@@ -2,6 +2,8 @@
 
 Links: <a href="/boardwalk/home/signup">Signup</a> | <a href="/boardwalk/home/contact">Contact</a> | <a href="/boardwalk/home/forgottenpassword">Forgotten Password</a> <?php if(isset($_SESSION['id'])) { ?> | <a href="/boardwalk/logout">Logout</a> <?php } ?>
 
+<?php if(isset($fail)) { echo errorbox($fail); } ?>
+
 <?=form_open_this("home/index/submit")?>
 	<div class="contentContainer">
 		<div class="fieldHolder">

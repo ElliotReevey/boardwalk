@@ -1,0 +1,1111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Boardwalk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-08 11:57+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Elliot Reeve <elliot@bytewire.co.uk>\n"
+"Language-Team: Bytewire\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/boardwalk/\n"
+"X-Poedit-SearchPath-0: /Applications/MAMP/htdocs/boardwalk\n"
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/compose.php:121
+#, php-format
+msgid "Message not sent, the following users are not Alive: %s."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/compose.php:124
+msgid "You cannot send messages to yourself."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/compose.php:133
+#, php-format
+msgid "Message not sent, the following users do not exist: %s."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/compose.php:142
+#, php-format
+msgid "Message not sent, the following usernames are invalid: %s."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/crons.php:15
+#, php-format
+msgid "Due to inactivity your Helpdesk Ticket with the subject \"%s\" has been closed.<br><br>Should you still require assistance regarding this matter please create a new <a href='%shelpdesk/'>Helpdesk Ticket</a>."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/helpdesk.php:61
+#, php-format
+msgid "There is a new Helpdesk Ticket which needs attention.<br><br><a href='%shelpdesk/view/%s/'>Click here to view ticket</a>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/helpdesk.php:66
+msgid "Your ticket has been sent, you will receive a response shortly."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/helpdesk.php:71
+msgid "You must enter a valid anti script code."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/helpdesk.php:74
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/helpdesk.php:178
+msgid "You must enter your message."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/helpdesk.php:77
+msgid "You must enter a valid subject."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/helpdesk.php:80
+msgid "You must select a valid ticket type."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/helpdesk.php:163
+#, php-format
+msgid "The following Helpdesk Ticket has received a new response:<br><br>Subject: %s<br><a href='%shelpdesk/view/%s/'>Click here to view ticket</a>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/helpdesk.php:167
+msgid "The message has been successfully posted."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/helpdesk.php:215
+msgid "<br><br>Your helpdesk responses were marked as satisfactory and therefore you have been given a thumbs up!"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/helpdesk.php:219
+#, php-format
+msgid "The Helpdesk Ticket \"%s\"has been closed by %s.%s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/helpdesk.php:222
+msgid "The ticket has been closed."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/helpdesk.php:230
+msgid "This ticket has already been closed."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/helpdesk.php:236
+msgid "You must select whether the response to your ticket was satisfactory."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/inbox.php:189
+msgid "Message deleted"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/managetickets.php:52
+msgid "You have successfully taken the ticket."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/managetickets.php:57
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/managetickets.php:95
+msgid "You cannot take your own tickets."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/managetickets.php:60
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/managetickets.php:101
+msgid "This ticket is no longer open."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/managetickets.php:63
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/managetickets.php:66
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/managetickets.php:104
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/managetickets.php:107
+msgid "This ticket is not valid."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/managetickets.php:90
+msgid "You have successfully passed the ticket back."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/managetickets.php:98
+msgid "You cannot pass back a ticket which you haven't taken."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/choosecharacter.php:45
+msgid "This username has already been taken, please try again."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/choosecharacter.php:48
+msgid "You must choose a starting location."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/choosecharacter.php:51
+msgid "You must select a gender for your character."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/choosecharacter.php:54
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/contact.php:68
+msgid "You must copy the code correctly."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/contact.php:71
+msgid "You must enter a valid message."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/contact.php:74
+msgid "You must select a subject."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/contact.php:77
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/forgottenpassword.php:80
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/index.php:59
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/signup.php:183
+msgid "You must enter a valid email address."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/contact.php:80
+msgid "You must enter a valid name."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/forgottenpassword.php:74
+msgid "You have requested a password reset recently, check your email for more information."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/forgottenpassword.php:77
+msgid "The email address entered was not found in our system."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/index.php:50
+msgid "The password you entered was incorrect."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/index.php:53
+msgid "Email address not found in our system."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/index.php:56
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/resetpassword.php:68
+msgid "You must enter a password."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/resetpassword.php:56
+msgid "The token provided was incorrect, please check you typed it correctly."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/resetpassword.php:59
+msgid "Invalid token, please try clicking the link from your email again."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/resetpassword.php:62
+msgid "Your password must match your confirmed password."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/resetpassword.php:65
+msgid "You must confirm your password."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/signup.php:151
+msgid "This email address has already been used."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/signup.php:154
+msgid "You must agree to the terms of service."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/signup.php:165
+msgid "You must select your age."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/signup.php:168
+msgid "You must select your gender."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/signup.php:171
+msgid "You must select a valid country."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/signup.php:174
+msgid "You must enter a valid date of birth."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/signup.php:177
+msgid "Your email address must match your confirmed email address."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/controller/home/signup.php:180
+msgid "You must re-enter your email address."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/forum.php:95
+msgid "You have successfully created a new topic."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/forum.php:102
+msgid "Your topic cannot be blank."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/forum.php:105
+msgid "You must enter a valid topic title."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/forum.php:142
+#, php-format
+msgid "Hey %s,<br><br>%s has just left a new post on forum topic \"%s\".<br><br>The post:<br><br>%s<br><br><a href='%sforum/%s/view/%s/'>View the forum topic >></a>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/forum.php:146
+msgid "Post added."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/forum.php:149
+msgid "Your reply cannot be blank."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/forum.php:187
+#, php-format
+msgid "You have liked the topic: %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/forum.php:190
+#, php-format
+msgid "Hey %s,<br><br>%s liked forum topic \"%s\".<br><br><a href='%sforum/%s/view/%s/'>View the forum topic >></a>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/forum.php:195
+msgid "You cannot like your own topics."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/forum.php:198
+msgid "You have already liked this topic."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/forum.php:231
+msgid "You have liked the post."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/forum.php:235
+#, php-format
+msgid "Hey %s,<br><br>%s liked your post in the forum topic \"%s\".<br><br>The post:<br><br>%s<br><br><a href='%sforum/%s/view/%s/'>View the forum topic >></a>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/forum.php:240
+msgid "You cannot like your own posts."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/forum.php:243
+msgid "You have already liked this post."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/hdfunctions.php:9
+msgid "Open"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/hdfunctions.php:12
+msgid "Processing"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/model/hdfunctions.php:15
+msgid "Closed"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/main.php:1
+msgid "Im logged in baby"
+msgstr "Im a connecté le bébé"
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/profile-player.php:1
+#, php-format
+msgid "Profile of %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/profile-player.php:6
+msgid "Name:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/profile-player.php:10
+msgid "Status:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/profile-player.php:14
+msgid "Start date:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/profile-player.php:18
+msgid "Profile quote:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/communication/compose.php:1
+msgid "Compose Message"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/communication/compose.php:8
+msgid "Send to:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/communication/compose.php:12
+msgid "Message:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/communication/compose.php:16
+msgid "Send Message"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/communication/conversation.php:8
+#, php-format
+msgid "Conversation with %s and %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/communication/conversation.php:39
+msgid "Reply"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/communication/inbox.php:1
+msgid "Inbox"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/communication/inbox.php:39
+msgid "No messages in your inbox"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/communication/sent.php:1
+msgid "Sent"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/communication/sent.php:38
+msgid "No messages in your sent box"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/create.php:6
+msgid "Posting A New Topic In Game Forum"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/create.php:7
+msgid "Topic Information"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/create.php:10
+msgid "Topic Title:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/create.php:14
+msgid "Topic"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/create.php:18
+msgid "Options"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/create.php:21
+msgid "Post New Topic"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/posts.php:7
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/topics.php:9
+msgid "Add Reply"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/posts.php:8
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/topics.php:10
+msgid "Start New Topic"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/posts.php:20
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/posts.php:47
+msgid "Rank:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/posts.php:22
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/posts.php:49
+msgid "Posts:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/posts.php:27
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/posts.php:54
+#, php-format
+msgid "Posted %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/posts.php:33
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/posts.php:60
+msgid "Quote Post"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/posts.php:34
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/posts.php:61
+#, php-format
+msgid "Likes: %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/posts.php:73
+msgid "Post"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/topics.php:1
+#, php-format
+msgid "%s Forum"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/topics.php:41
+msgid "No topics in this forum."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/forum/topics.php:44
+msgid "You are not apart of a crew."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/create.php:8
+msgid "Ticket Subject:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/create.php:12
+msgid "Ticket Type:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/create.php:15
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/contact.php:19
+msgid "Select Subject"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/create.php:16
+msgid "Game Help"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/create.php:17
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/contact.php:23
+msgid "Login Problems"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/create.php:18
+msgid "Payments"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/create.php:19
+msgid "Bug"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/create.php:20
+msgid "Idea"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/create.php:29
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/contact.php:33
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/logincheck.php:10
+msgid "Anti Script:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/create.php:34
+msgid "Submit Ticket"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:1
+msgid "Manage Tickets"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:5
+msgid "Open Tickets"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:11
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:47
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/tickets.php:15
+msgid "Ticket ID"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:12
+msgid "Created"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:13
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:49
+msgid "Username"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:14
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:50
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/tickets.php:17
+msgid "Type"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:15
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:51
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/tickets.php:18
+msgid "Subject"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:16
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:52
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/tickets.php:20
+msgid "Action"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:28
+msgid "Take Ticket"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:35
+msgid "There are not any open tickets"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:48
+msgid "Last Updated"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:64
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/tickets.php:32
+msgid "View"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/managetickets.php:71
+msgid "You have not taken any tickets"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/tickets.php:1
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/tickets.php:48
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:1
+msgid "Helpdesk"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/tickets.php:7
+msgid "Create a new ticket"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/tickets.php:16
+msgid "Last Reply"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/tickets.php:19
+msgid "Status"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/tickets.php:39
+msgid "You do not have any open tickets"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/tickets.php:46
+msgid "Staff Members"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/tickets.php:47
+msgid "Admins"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/tickets.php:57
+msgid "There are currently no helpdesk members."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:7
+msgid "Ticket"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:8
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/contact.php:16
+msgid "Subject:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:9
+msgid "Ticket status:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:14
+msgid "Confirm close ticket"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:15
+msgid "Was the answer your received satisfactory?"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:15
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:17
+msgid "Yes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:15
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:17
+msgid "No"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:16
+msgid "Are you sure you want to close this ticket?"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:23
+msgid "Return to Tickets"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:24
+msgid "Close Ticket"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:26
+msgid "Back to Manage Tickets"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:31
+#, php-format
+msgid "Original ticket message posted %s at %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:37
+#, php-format
+msgid "Response by %s posted %s at %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/helpdesk/view.php:47
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/choosecharacter.php:34
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/contact.php:38
+msgid "Submit"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/banned.php:1
+#, php-format
+msgid "Your account has been banned by the %s Staff."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/banned.php:2
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/hibernation.php:2
+#, php-format
+msgid "Until your account has served its ban you cannot access %s."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/banned.php:6
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/contact.php:12
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/forgottenpassword.php:9
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/hibernation.php:6
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/index.php:8
+msgid "Email Address:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/banned.php:10
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/hibernation.php:10
+msgid "Username:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/banned.php:14
+msgid "Banned Until:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/banned.php:18
+msgid "Ban Reason:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/banned.php:23
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/hibernation.php:19
+msgid "Try and log in again once your time has expired and continue playing the game."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/banned.php:24
+msgid "Repeat offenders will be punished more severely, you have been warned."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/banned.php:25
+#, php-format
+msgid "If you think your account was banned unfairly or you think your account has a reason to be re-instated please contact %s Staff at: <a href='mailto:%s'>%s</a>."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/choosecharacter.php:1
+msgid "Choose character"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/choosecharacter.php:8
+msgid "Character Name:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/choosecharacter.php:12
+msgid "Character Gender:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/choosecharacter.php:15
+msgid "Select Gender"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/choosecharacter.php:16
+msgid "Male"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/choosecharacter.php:17
+msgid "Female"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/choosecharacter.php:22
+msgid "Starting Location:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/choosecharacter.php:25
+msgid "Select Location"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/choosecharacter.php:26
+msgid "Amsterdam"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/choosecharacter.php:27
+msgid "London"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/choosecharacter.php:28
+msgid "Brussels"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/choosecharacter.php:29
+msgid "Kazakhstan"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/contact.php:1
+msgid "If you have any queries or questions you would like to ask please use the form below to contact us. We will do our best to reply within 24 hours."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/contact.php:20
+msgid "General Enquiry"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/contact.php:21
+msgid "Ideas"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/contact.php:22
+msgid "Ban"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/contact.php:24
+msgid "Advertising Request"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/contact_success.php:1
+msgid "Success!"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/contact_success.php:2
+msgid "Your contact request form has been received."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/contact_success.php:3
+msgid "A member of staff will aim to reply within 24 hours."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/forgottenpassword.php:1
+msgid "Lost your password? Dont worry! Reseting it is very simple."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/forgottenpassword.php:2
+msgid "Enter the email address which you used to sign up and click the 'Recover' button we will then send further details to your email address about resetting your password."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/forgottenpassword.php:13
+msgid "Recover"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/forgottenpassword_success.php:1
+msgid "Well done, we have reset your password, check your email."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/hibernation.php:1
+msgid "Your account is currently in Hibernation, whilst in hibernation you cannot access your account"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/hibernation.php:14
+msgid "Hibernation Until:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/index.php:12
+msgid "Password:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/index.php:16
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/logincheck.php:15
+msgid "Login"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/logincheck.php:1
+#, php-format
+msgid "Welcome back to %s %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/logincheck.php:3
+msgid "In order to prove you are human, complete your login by entering the code below into the adjacent box."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/resetpassword.php:1
+msgid "Enter your new password below to reset your password."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/resetpassword.php:2
+msgid "Once you have submitted the form please use your new password to login."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/resetpassword.php:9
+msgid "New Password:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/resetpassword.php:13
+msgid "Confirm New Password:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/resetpassword.php:17
+msgid "Reset"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/resetpassword_success.php:1
+msgid "Password successfully changed!"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/signup.php:1
+msgid "Register now to start a life of crime, killing, girls and money. Join thousands of others in the biggest and best free online gangster game on the web."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/signup.php:12
+msgid "Confirm Email:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/signup.php:16
+msgid "Country:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/signup.php:19
+msgid "Select Country"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/signup.php:25
+msgid "Date of birth:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/signup.php:28
+msgid "Select Day"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/signup.php:32
+msgid "Select Month"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/signup.php:38
+msgid "Select Year"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/signup.php:44
+msgid "Gender:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/signup.php:54
+msgid "Age:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/signup.php:57
+msgid "Select Age"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/signup.php:67
+msgid "Referral Code:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/signup.php:76
+msgid "I have read and accept the terms of service"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/signup.php:80
+msgid "Register"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/home/signup_success.php:1
+msgid "Well done, you have signed up, now check your email!"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:1
+msgid "My Account"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:5
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:21
+msgid "Change Password"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:9
+msgid "Current password:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:13
+msgid "New password:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:17
+msgid "Confirm new password:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:26
+msgid "Add Friends"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:30
+msgid "Friends list:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:38
+msgid "You do not have any friends"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:44
+msgid "Add friends list:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:46
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:71
+msgid "Add"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:51
+msgid "Add Ignore"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:55
+msgid "Ignore list:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:63
+msgid "You are not ignoring anyone"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:69
+msgid "Add to ignore list:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:76
+msgid "Take A Break"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:81
+msgid "Number of days:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:83
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:93
+msgid "Take a Break"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:91
+msgid "Confirmation code:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:99
+msgid "Profile Quote"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/myaccount.php:107
+msgid "Update Quote"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/referafriend.php:1
+msgid "Refer a Friend"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/referafriend.php:2
+msgid "Enter your friends email address below and they will be sent an email with a referral code which they must enter upon registration."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/personal/referafriend.php:13
+msgid "Refer"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/search.php:1
+msgid "Search"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/search.php:5
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/search.php:21
+msgid "Search Players"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/search.php:14
+msgid "Alive"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/search.php:14
+msgid "Dead"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/search.php:14
+msgid "Banned"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/search.php:14
+msgid "Taking a Break"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/search.php:14
+msgid "All"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/search.php:17
+msgid "Activity:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/search.php:18
+msgid "Last 10 minutes"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/search.php:18
+msgid "Last hour"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/search.php:18
+msgid "Last 24 hours"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/search.php:18
+msgid "Within last week"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/search.php:18
+msgid "Ever"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/search.php:26
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/search.php:34
+msgid "Search Crews"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/searchresults.php:3
+#, php-format
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/searchresults.php:13
+#, php-format
+msgid "No %s found, <a href='%sworld/search/'>try again >></a>"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/usersonline.php:1
+msgid "Users Online"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/usersonline.php:4
+msgid "Staff online in the last 10 minutes:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/usersonline.php:17
+msgid "There is currently no staff online."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/usersonline.php:21
+msgid "Users online in the last 10 minutes:"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/usersonline.php:34
+msgid "There is currently no players online."
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/application/view/world/usersonline.php:37
+#, php-format
+msgid "Total: %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/core/library/Mail.php:164
+#, php-format
+msgid "%s not set! Given: %s"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/core/library/Validation.php:92
+msgid "Your username contains words which we do not allow as a username, try changing it to something else!"
+msgstr ""
+
+#: /Applications/MAMP/htdocs/boardwalk/core/library/Validation.php:95
+msgid "The username is invalid it may only contain letters, numbers, spaces, -_| and must be between 3 and 15 characters in length."
+msgstr ""
+

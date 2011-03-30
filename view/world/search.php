@@ -11,11 +11,11 @@
 		</div>
 		<div class="fieldHolder">
 			<div class="labelItem"><?=gettext("Status:")?></div>
-			<div class="inputField"><input type="radio" name="accStatus" value="1"> Alive <input type="radio" name="accStatus" value="2"> Dead <input type="radio" name="accStatus" value="3"> Banned <input type="radio" name="accStatus" value="4"> Taking a Break <input type="radio" name="accStatus" value="5" checked="checked"> All  </div>
+			<div class="inputField"><input type="radio" name="accStatus" value="1"> <?=gettext("Alive")?> <input type="radio" name="accStatus" value="2"> <?=gettext("Dead")?> <input type="radio" name="accStatus" value="3"> <?=gettext("Banned")?> <input type="radio" name="accStatus" value="4"> <?=gettext("Taking a Break")?> <input type="radio" name="accStatus" value="5" checked="checked"> <?=gettext("All")?></div>
 		</div>
 		<div class="fieldHolder">
 			<div class="labelItem"><?=gettext("Activity:")?></div>
-			<div class="inputField"><input type="radio" name="accActivity" value="1"> Last 10 minutes <input type="radio" name="accActivity" value="2"> Last hour <input type="radio" name="accActivity" value="3"> Last 24 hours <input type="radio" name="accActivity" value="4"> Within last week <input type="radio" name="accActivity" value="5" checked="checked"> Ever</div>
+			<div class="inputField"><input type="radio" name="accActivity" value="1"> <?=gettext("Last 10 minutes")?> <input type="radio" name="accActivity" value="2"> <?=gettext("Last hour")?> <input type="radio" name="accActivity" value="3"> <?=gettext("Last 24 hours")?> <input type="radio" name="accActivity" value="4"> <?=gettext("Within last week")?> <input type="radio" name="accActivity" value="5" checked="checked"> <?=gettext("Ever")?></div>
 		</div>
 		<div class="inputButton">
 			<input type="submit" class="submitButton" value="<?=gettext("Search Players")?>" name="playerSearch">

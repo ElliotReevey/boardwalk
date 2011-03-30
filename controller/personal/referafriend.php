@@ -5,6 +5,7 @@
 		function __construct(){
 			
 			parent::Controller();
+			$this->load->library('session');
 			$this->load->library('validation');
 			$this->load->helper('form');
 			$this->load->model('gamecore');
@@ -23,7 +24,7 @@
 			if(isset($_POST['submitButton'])) {
 				$email = $_POST['emailAddress'];
 				$id = $_SESSION['id'];
-				$user = $this->db->query("SELECT * FROM users WHERE id = '$id'")->row();
+				$user = $this->gamecore->userinfo($id,"*");
 				
 				if($this->validation->valid_email($email)) {
 					$check_existing = $this->db->query("SELECT * FROM users WHERE email = '$email'")->row();

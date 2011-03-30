@@ -5,6 +5,7 @@
 		function __construct(){
 			
 			parent::Controller();
+			$this->load->library('session');
 			$this->load->library('validation');
 			$this->load->helper('form');
 			$this->load->model('gamecore');
@@ -30,7 +31,7 @@
 						if($this->validation->is_numeric($activity)) {
 							
 							$this->load->model('searchresults');
-							$data['results'] = $this->searchresults->search_perform($search,"username","users",$status,$activity);
+							$data['results'] = $this->searchresults->search_perform($search,"username","characters",$status,$activity);
 							$data['search_term'] = $search;
 							$data['search_type'] = "Player Search";
 							$data['result_type'] = "users";
@@ -63,8 +64,6 @@
 				$search = $_POST['searchCrew'];
 			
 				if($this->validation->userName($search)) {
-					$check = $this->db->query("SELECT * FROM crews WHERE crewname = '$search'");
-					if($check){
 					
 						$this->load->model('searchresults');
 						$data['results'] = $this->searchresults->search_perform($search,"crewname","crews");
@@ -74,9 +73,6 @@
 						$data['site_url'] = $this->core->get_config_item('base_url');
 						$this->load->view("world/searchresults",$data);
 					
-					} else {
-						$data['fail'] = "The crewname you entered does not exist.";
-					}			
 				} else {
 					$data['fail'] = "The crewname you entered was invalid.";
 				}

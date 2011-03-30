@@ -5,6 +5,7 @@
 		function __construct(){
 			
 			parent::Controller();
+			$this->load->library('session');
 			$this->load->library('validation');
 			$this->load->helper('form');
 			$this->load->model('gamecore');
@@ -26,17 +27,17 @@
 				$location = $_POST['startLocation'];
 				$userid = $_SESSION['logincheck'];
 				
-				$check = $this->db->query("SELECT username FROM users WHERE id = '$userid'")->row();
+				$check = $this->db->query("SELECT username FROM characters WHERE id = '$userid'")->row();
 				if($check['username'] == '') {
 					if($this->validation->characterName($username)){				
 						if($this->validation->alpha_loose($gender)) {
 							if($this->validation->alpha_loose($location)) {
-								$usernamecheck = $this->db->query("SELECT * FROM users WHERE username = '$username'")->row();
+								$usernamecheck = $this->db->query("SELECT * FROM characters WHERE username = '$username'")->row();
 								if(!$usernamecheck) {
 									
 									$_SESSION['id'] = $userid;				
 									//Update the user
-									$this->db->query("UPDATE users SET username = '$username', chargender = '$gender', location = '$location' WHERE id = '$userid'");
+									$this->db->query("UPDATE characters SET username = '$username', chargender = '$gender', location = '$location' WHERE id = '$userid'");
 									header("Location: ".$this->core->get_config_item('base_url')."main");
 
 	

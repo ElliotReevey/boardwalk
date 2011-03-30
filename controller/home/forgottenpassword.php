@@ -5,6 +5,7 @@
 		function __construct(){
 			
 			parent::Controller();
+			$this->load->library('session');
 			$this->load->library('validation');
 			$this->load->helper('form');
 			$this->load->model('gamecore');
@@ -24,14 +25,14 @@
 				$email = $_POST['emailAddress'];
 				
 					if($this->validation->valid_email($email)) {
-						$check = $this->db->query("SELECT username, email FROM users WHERE email = '$email'")->row();
+						$check = $this->db->query("SELECT username, email FROM characters c INNER JOIN  users u ON u.id = c.userid WHERE email = '$email'")->row();
 						if($check) {
 							$lastreset = $this->db->query("SELECT * FROM reset_password WHERE email = '$email'")->row();
 							if(!$lastreset) {
 							
 								//Generate reset code
 								$this->load->library('utilities');
-								$code = $this->utilities->generateToken(75);
+								$code = $this->utilities->generateToken(45);
 								
 								//Insert into database
 								$fields['email']=$email;

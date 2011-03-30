@@ -5,6 +5,7 @@
 		function __construct(){
 			
 			parent::Controller();
+			$this->load->library('session');
 			$this->load->library('validation');
 			$this->load->helper('form');
 			$this->load->model('gamecore');
@@ -23,8 +24,8 @@
 			$id = $_SESSION['id'];
 			$data['hibernation_auth'] = $this->db->query("SELECT * FROM hibernation_auth WHERE playerid = '$id'")->row();
 			$data['profile'] = $this->db->query("SELECT quote FROM profile WHERE playerid = '$id'")->row();
-			$data['friends'] = $this->db->query("SELECT friendid, username FROM friends_list INNER JOIN users ON users.id = friends_list.friendid WHERE friends_list.playerid = '$id'")->rows();
-			$data['ignoring'] = $this->db->query("SELECT ignoreid, username FROM ignore_list INNER JOIN users ON users.id = ignore_list.ignoreid WHERE ignore_list.playerid = '$id'")->rows();
+			$data['friends'] = $this->db->query("SELECT friendid, username FROM friends_list INNER JOIN characters ON characters.id = friends_list.friendid WHERE friends_list.playerid = '$id'")->rows();
+			$data['ignoring'] = $this->db->query("SELECT ignoreid, username FROM ignore_list INNER JOIN characters ON characters.id = ignore_list.ignoreid WHERE ignore_list.playerid = '$id'")->rows();
 			$data['site_url'] = $this->core->get_config_item('base_url');
 			return $data;
 		}
@@ -37,13 +38,13 @@
 				$confirmnew = $_POST['confirmNewPassword'];
 				$id = $_SESSION['id'];
 				
-				$user = $this->db->query("SELECT * FROM users WHERE id = '$id'")->row();
+				$user = $this->gamecore->userinfo($id,"*");
 				if(strlen($newpassword) >= 6){
 					if(md5($current) == $user['password']) {
 						if($newpassword == $confirmnew) {
 							
 							$newpasswordmd5 = md5($newpassword);
-							$this->db->query("UPDATE users SET password = '$newpasswordmd5' WHERE id = '$id'");
+							$this->db->query("UPDATE characters SET password = '$newpasswordmd5' WHERE id = '$id'");
 							$data['success'] = "You have successfully changed your password.";
 					
 						} else {
@@ -72,8 +73,8 @@
 				$friend = $_POST['friendName'];
 				$id = $_SESSION['id'];
 				
-				if($this->validation->checkdata($friend,4)){
-					$check = $this->db->query("SELECT * FROM users WHERE username = '$friend'")->row();
+				if($this->validation->userName($friend)){
+					$check = $this->db->query("SELECT * FROM characters WHERE username = '$friend'")->row();
 					if($check){
 						if($check['status'] != "Dead") {	
 							$already = $this->db->query("SELECT * FROM friends_list WHERE playerid = '$id' AND friendid = '{$check['id']}'")->row();
@@ -118,7 +119,7 @@
 			
 			if($segment[3] == 'deletefriend') {
 				if($this->validation->is_numeric($friendid)){
-					$check = $this->db->query("SELECT * FROM users WHERE id = '$friendid'")->row();
+					$check = $this->gamecore->userinfo($friendid,"*");
 					if($check) {
 						$still_friend = $this->db->query("SELECT * FROM friends_list WHERE playerid = '$id' AND friendid = '$friendid'")->row();						if($still_friend) {
 
@@ -145,8 +146,8 @@
 				$ignore = $_POST['ignoreName'];
 				$id = $_SESSION['id'];
 				
-				if($this->validation->checkdata($ignore,4)){
-					$check = $this->db->query("SELECT * FROM users WHERE username = '$ignore'")->row();
+				if($this->validation->userName($ignore)){
+					$check = $this->db->query("SELECT * FROM characters WHERE username = '$ignore'")->row();
 					if($check){
 						if($check['status'] != "Dead") {	
 							$already = $this->db->query("SELECT * FROM ignore_list WHERE playerid = '$id' AND ignoreid = '{$check['id']}'")->row();
@@ -191,7 +192,7 @@
 			
 			if($segment[3] == 'deleteignore') {
 				if($this->validation->is_numeric($ignoreid)){
-					$check = $this->db->query("SELECT * FROM users WHERE id = '$ignoreid'")->row();
+					$check = $this->gamecore->userinfo($ignoreid,"*");
 					if($check) {
 						$still_ignore = $this->db->query("SELECT * FROM ignore_list WHERE playerid = '$id' AND ignoreid = '$ignoreid'")->row();						if($still_ignore) {
 
@@ -232,7 +233,7 @@
 									$fields['days']=$days;
 									$fields['time']=time();
 									$this->db->insert('hibernation_auth',$fields);
-									$user = $this->db->query("SELECT username, email FROM users WHERE id = '$id'")->row();
+									$user = $this->gamecore->userinfo($id,"username, email");
 
 									//Send the email
 									$this->load->library('mail');

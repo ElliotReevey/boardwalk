@@ -5,6 +5,7 @@
 		function __construct(){
 			
 			parent::Controller();
+			$this->load->library('session');
 			$this->load->library('validation');
 			$this->load->helper('form');
 			$this->load->model('gamecore');
@@ -14,8 +15,8 @@
 		
 		function index(){
 				
-			$this->load->view("home/index");
-		 
+			$this->load->view("home/index");	 
+
 		}
 	
 		function submit(){
@@ -27,7 +28,7 @@
 				if($this->validation->valid_email($email)) {
 					if($password) {
 						//Check the email address and password match
-						$check = $this->db->query("SELECT id, email, password, username FROM users WHERE email = '$email' ORDER BY id DESC LIMIT 1")->row();
+						$check = $this->db->query("SELECT c.id as id, email, password, username FROM characters c INNER JOIN users u ON c.userid = u.id WHERE u.email = '$email' ORDER BY c.id DESC LIMIT 1")->row();
 						if($check) {
 							if($check['password'] == $md5password) {
 								$_SESSION['logincheck']=$check['id'];
